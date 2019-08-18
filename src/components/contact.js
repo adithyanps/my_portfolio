@@ -12,7 +12,9 @@ class Contact extends Component {
             <h2>ADITHYAN P S</h2>
             <img src={img} alt="avatar" className="avatar-img"/>
 
-             <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>reactJS developer.handles the Postgresql database.deep knowledge about Firebasedb .backend is coding by using python django.also using reactredux in frontend</p>
+             <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>
+             developed Python and Django for the backend development and front-end application using React, Webpack, Redux, and ES6/7 and PostgreSQL for database.
+             </p>
 
           </Cell>
           <Cell col={6}>

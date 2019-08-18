@@ -13,11 +13,11 @@ class Landing extends Component {
             <img src={img} alt="avatar" className="avatar-img"/>
 
             <div className="banner-text">
-              <h1>Full Stack Web Developer</h1>
+              <h1>Web Developer</h1>
 
             <hr/>
 
-            <p>HTML/CSS | Bootstrap | JavaScript | React | Python | Django | Postgresql | React-Redux | Firebasedb</p>
+            <p> Python |  Django | JavaScript | React | Redux | REST API | ES6 | JSON | Node | NPM | Postgresql |  GoogleCloud Deployment | HTML/CSS | Bootstrap |</p>
 
         <div className="social-links">
 

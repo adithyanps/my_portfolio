@@ -33,8 +33,8 @@ class Resume extends Component {
             <p>9995181234</p>
             <h5>Email</h5>
             <p>adithyanps3@gmail.com</p>
-            <h5>Web</h5>
-            <p>mywebsite.com</p>
+            <h5>Website</h5>
+            <p>https://adithyanps.github.io/my_portfolio/</p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
           </Cell>
           <Cell className="resume-right-col" col={8}>
@@ -56,39 +56,46 @@ class Resume extends Component {
               <h2>Experience</h2>
 
             <Experience
-              startYear={2009}
-              endYear={2012}
-              jobName="First Job"
-              jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+              startYear={2017}
+              endYear={2018}
+              jobName="web developer"
+              company="Recursive labs"
+              jobDescription="creating django rest api's"
               />
 
               <Experience
-                startYear={2012}
-                endYear={2016}
-                jobName="Second Job"
-                jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                startYear={2018}
+                endYear={2019}
+                jobName="web developer"
+                company="NOVIZCO AI LABS"
+                jobDescription="working on both frontend(react) and backend(Django).Creating Rest API'S Django framework using the postgresql database.api's are send into React as JSON format."
                 />
               <hr style={{borderTop: '3px solid #e22947'}} />
               <h2>Skills</h2>
+              <Skills
+                skill="Python"
+                progress={75}
+                />
               <Skills
                 skill="React"
                 progress={75}
                 />
               <Skills
-                  skill="django"
-                  progress={50}
+                  skill="Django"
+                  progress={70}
                 />
               <Skills
                 skill="javascript"
-                progress={80}
+                progress={75}
                 />
-                <Skills
-                  skill="HTML/CSS"
-                  progress={40}
-                  />
-
-
-
+              <Skills
+                skill="Django Rest API"
+                progress={90}
+                />
+              <Skills
+                skill="Google Cloud Deployment"
+                progress={90}
+                />
 
           </Cell>
         </Grid>
