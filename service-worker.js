@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "adithyanps.github.io/my_portfolio/precache-manifest.86cd1246af1959d3bbac1b17545cddfd.js"
+  "adithyanps.github.io/my_portfolio/precache-manifest.73beff0d9fdaf33436e227170c053720.js"
 );
 
 workbox.clientsClaim();
